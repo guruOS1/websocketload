@@ -48,7 +48,11 @@ def f(x):
     ws.on_open = on_open
     ws.run_forever()
 
-if __name__ == '__main__':
+def main():
     websocket.enableTrace(True)
     p = Pool(n)
     results = [ p.map(f, range(n)) ]
+
+
+if __name__ == '__main__':
+    main()
