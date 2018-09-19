@@ -1,4 +1,4 @@
 Description
 ===========
 
-A load test programm for libapache2-mod-websocket
+A load test module for libapache2-mod-websocket
